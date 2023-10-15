@@ -32,3 +32,8 @@ The application can be run locally using Streamlit. Ensure to have all the neces
 
 ```shell
 streamlit run app.py
+
+Author: Khuong Le Nguyen
+University of Transport Technology, Vietnam
+University of Canberra, Australia
+Email: lekhuong.jmi@gmail.com

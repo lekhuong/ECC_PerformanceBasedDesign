@@ -30,10 +30,12 @@ This web application, developed with Streamlit, assists in optimizing and predic
 
 The application can be run locally using Streamlit. Ensure to have all the necessary Python libraries installed and simply use the command:
 
-```shell
-streamlit run app.py
-
-Author: Khuong Le Nguyen
+### Author 
+Khuong Le Nguyen
 University of Transport Technology, Vietnam
 University of Canberra, Australia
 Email: lekhuong.jmi@gmail.com
+```shell
+streamlit run app.py
+
+

@@ -1,12 +1,14 @@
 # ECC_PerformanceBasedDesign
 Concrete Mix Optimizer Web Application
+
 Summary
+
 This web application, developed with Streamlit, assists in optimizing and predicting the properties of Engineered Cementitious Composites (ECC) mixtures. By utilizing machine learning models and multi-objective optimization algorithms, it aids in formulating mixtures that meet specific requirements in terms of strength, cost, and CO2 emissions.
 
 Features
 User Inputs: Enables users to specify both the bounds for generative design inputs (like Cement, Clinker, Slag, Fly Ash, etc.) and the fixed values for desired compressive strength, expected date, and the number of iterations for the optimization process.
 
-Predictions: Facilitates making predictions using the current values of input variables with a straightforward user interface.
+Predictions: It facilitates making predictions using the current values of input variables with a straightforward user interface.
 
 Visualizations: Once optimization is executed, the app provides visual insights through various plots, like pairwise relationships of objectives and a 3D scatter plot to visualize the trade-offs between all three objectives (strength deviation, CO2, and cost). A 3x3 subplot grid is also generated to visualize each input feature against cost, with points colored by strength and sized by CO2 emissions.
 
@@ -22,7 +24,6 @@ Platypus: For multi-objective optimization.
 Joblib: For loading pre-trained machine learning models.
 Usage
 The application can be run locally using Streamlit. Ensure to have all the necessary Python libraries installed and simply use the command:
-
 shell
 Copy code
 streamlit run app.py
